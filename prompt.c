@@ -28,16 +28,16 @@ void add_history(char* unused) {}
 
 int main(int argc, char** argv) {
 
-  puts("Lispy Version 0.0.0.0.1");
+  puts("Towelie Version 0.0.0.0.1");
   puts("Press Ctrl+c to Exit\n");
 
   while (1) {
 
     /* Now in either case readline will be correctly defined */
-    char* input = readline("lispy> ");
+    char* input = readline("Towelie=> ");
     add_history(input);
 
-    printf("No you're a %s\n", input);
+    printf("You're a %s\n", input);
     free(input);
 
   }
