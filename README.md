@@ -1,6 +1,6 @@
-# Installation
+# Installation:
 
-## Dependencies
+## Dependencies:
 
 ### Mac:
      
@@ -22,6 +22,10 @@ You get a free pass this time. Whoop woop...
 
 ## To compile:
 
-    cc -std=c99 -Wall prompt.c -ledit -o prompt
+    cc -std=c99 -Wall prompt.c -ledit -o towel
 
+## Start up a Towelie REPL:
 
+    towel
+    
+# You're a towel!
