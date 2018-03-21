@@ -1,6 +1,6 @@
 # Installation:
 
-Towelie is written in C, so it can run smoothly on really crappy, knotted, or strung-out towels, with minimal headaches and good resistance to fraying. Towelie doesn't care what kind of material you're running, as long as it's still got most of its fibers. Just download "towel.c" and type the following shit depending on your Towelie Platform: 
+Towelie is written in C, so it's smoothly performant even on really crappy, knotted, embedded or strung-out towels, with minimal headaches and good resistance to stains and fraying. Towelie doesn't care what kind of material you're running, as long as it's still got most of its fibers. Just download "towel.c" and type the following shit depending on your Towelie Platform: 
 
 ## MacinTowels:
      
