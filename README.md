@@ -1,6 +1,6 @@
 # Installation:
 
-Towelie is written in C, so it can run smoothly on really crappy, knotted, or strung-out towels, with minimal headaches and good resistance to fraying. Towelie doesn't care what kind of material you're running, as long as it's still got most of its fibers. Just download "prompt.c" and type the following shit depending on your Towelie Platform: 
+Towelie is written in C, so it can run smoothly on really crappy, knotted, or strung-out towels, with minimal headaches and good resistance to fraying. Towelie doesn't care what kind of material you're running, as long as it's still got most of its fibers. Just download "towel.c" and type the following shit depending on your Towelie Platform: 
 
 ## MacinTowels:
      
@@ -24,7 +24,7 @@ Download and install [MinGW](http://www.mingw.org/). If you use the installer at
 
 # Now to compile your fibers:
 
-    cc -std=c99 -Wall prompt.c -ledit -o towel
+    cc -std=c99 -Wall towel.c -ledit -o towel
 
 # And finally... spin up a Towelie REPL:
 
