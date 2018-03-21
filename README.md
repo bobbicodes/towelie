@@ -1,18 +1,26 @@
-# Dependencies:
+# Installation
 
-On Mac the editline library comes with Command Line Tools. Refer to buildyourownlisp.com if you have problems.
+## Dependencies
 
-On Debian Linux you can install editline with:
+### Mac:
+     
+     xcode-select --install
+     
+If you get an error about the history header not being found, remove the line #include <editline/history.h>.
+
+### Debian Linux:
 
     sudo apt-get install libedit-dev
     
-On Fedora you can use the command:
+### Fedora:
 
     su -c "yum install libedit-dev*"
     
-Windows gets a free pass this time. Whoop woop...
+### Windows
 
-To compile:
+You get a free pass this time. Whoop woop...
+
+## To compile:
 
     cc -std=c99 -Wall prompt.c -ledit -o prompt
 
