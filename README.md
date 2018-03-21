@@ -28,6 +28,10 @@ Download and install [MinGW](http://www.mingw.org/). If you use the installer at
 
 # And finally... spin up a Towelie REPL:
 
-    towel
+    $ towel
+    Towelie 0.1.0
+    Press Ctrl+c to Exit
+    
+    Towelie=> (you're a towel)
     
 # You're a Towel!
