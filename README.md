@@ -24,7 +24,13 @@ Download and install [MinGW](http://www.mingw.org/). If you use the installer at
 
 # Now to compile your fibers:
 
-    cc -std=c99 -Wall towel.c -ledit -o towel
+Linux and Mac:
+
+    cc -std=c99 -Wall towel.c mpc.c -ledit -lm -o towel
+
+WinTowels:
+
+    cc -std=c99 -Wall towel.c mpc.c -o towel
 
 # And finally... spin up a Towelie REPL:
 
