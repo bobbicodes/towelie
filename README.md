@@ -1,5 +1,7 @@
 # Installation:
 
+Towelie is written in C, so it can run smoothly on really crappy, embedded, or strung-out towels, with minimal headaches and good resistance to fraying.
+
 ## Dependencies:
 
 ### Mac:
